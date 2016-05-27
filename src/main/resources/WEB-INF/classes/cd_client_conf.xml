@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- To override the default cache behaviour, define a CacheUri within the ServiceConfig element.   
+ For example: CacheUri="ehcache-cil.xml" -->
+<ServiceConfig ConnectionTimeout="10000" CacheEnabled="false" CacheExpirationDuration="600"
+               ServiceAvailabilityCheck="true">
+
+    <DiscoveryService ServiceUri="http://SERVER:PORT/discovery.svc"/>
+</ServiceConfig>
